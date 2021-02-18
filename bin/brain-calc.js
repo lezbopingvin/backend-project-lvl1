@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { greetUser, startGame, getRandomInt } from '../src/index.js';
 
-const rule = 'calc';
+const rule = 'What is the result of the expression?';
 const cons = [];
 const res = [];
 for (let i = 0; i < 3; i += 1) {
