@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { greetUser, startGame, getRandomInt } from '../src/index.js';
 
-const rule = 'even';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 const cons = [];
 const res = [];
 for (let i = 0; i < 3; i += 1) {

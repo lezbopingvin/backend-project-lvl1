@@ -5,16 +5,7 @@ export const greetUser = (rule) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}`);
-  switch (rule) {
-    case 'even':
-      console.log('Answer "yes" if the number is even, otherwise answer "no".');
-      break;
-    case 'calc':
-      console.log('What is the result of the expression?');
-      break;
-    default:
-      break;
-  }
+  console.log(rule);
   return name;
 };
 export const startGame = (cond, res, name) => {
