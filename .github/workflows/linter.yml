@@ -6,7 +6,7 @@ on: push
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  super-lint:
+  eslink-check:
     # Name the Job
     name: Lint code base
     # Set the type of machine to run on
@@ -19,6 +19,7 @@ jobs:
 
       # Runs the Super-Linter action
       - name: Run Linter
+        run: npm ci
         run: |
           make lint
         env:
