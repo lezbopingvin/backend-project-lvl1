@@ -32,6 +32,6 @@ for (let i = 0; i < 3; i += 1) {
   const a = getRandomInt(100);
   const b = getRandomInt(100);
   cons.push(`${a} ${b}`);
-  res.push(gcd(a, b));
+  res.push(gcd(a, b).toString());
 }
 startGame(cons, res, greetUser(rule));
