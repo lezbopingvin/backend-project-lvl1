@@ -12,7 +12,7 @@ for (let i = 0; i < 3; i += 1) {
   for (let j = 1; j < len; j += 1) {
     seq.push(seq[j - 1] + step);
   }
-  res.push(seq[mis]);
+  res.push((seq[mis]).toString());
   seq[mis] = '..';
   cons.push(seq.join(' '));
 }
