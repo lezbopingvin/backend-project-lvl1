@@ -19,5 +19,5 @@ export const startGame = (cond, res, name) => {
       return;
     }
   }
-  console.log(`Conratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 };
