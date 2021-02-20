@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { greetUser, startGame, getRandomInt } from '../src/index.js';
+import { greetUser, startGame } from '../src/cli.js';
+import getRandomInt from '../src/index.js';
 
 const rule = 'What number is missing in the progression?';
 const cons = [];
