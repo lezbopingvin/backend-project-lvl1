@@ -11,15 +11,15 @@ for (let i = 0; i < 3; i += 1) {
   switch (c) {
     case 0:
       cons.push(`${a} + ${b}`);
-      res.push(a + b);
+      res.push((a + b).toString());
       break;
     case 1:
       cons.push(`${a} - ${b}`);
-      res.push(a - b);
+      res.push((a - b).toString());
       break;
     case 2:
       cons.push(`${a} * ${b}`);
-      res.push(a * b);
+      res.push((a * b).toString());
       break;
     default:
       break;

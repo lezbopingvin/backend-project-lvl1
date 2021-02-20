@@ -11,7 +11,7 @@ for (let i = 0; i < 3; i += 1) {
   const step = getRandomInt(30);
   for (let j = 1; j < len; j += 1) {
     seq.push(seq[j - 1] + step);
-  };
+  }
   res.push(seq[mis]);
   seq[mis] = '..';
   cons.push(seq.join(' '));
